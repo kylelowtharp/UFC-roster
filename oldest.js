@@ -1,5 +1,5 @@
-var ANCESTRY_FILE = require('./ancestry.js');
-var ancestry = JSON.parse(ANCESTRY_FILE);
+var data = require('./ancestry.js');
+var ancestry = JSON.parse(data);
 
 function map(array, transform) {
   var mapped = [];
