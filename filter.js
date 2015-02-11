@@ -1,6 +1,6 @@
-load('ancestry.js');
-var ancestry = JSON.parse(ANCESTRY_FILE);
-function filter(array, test) {
+load('UFCroster.js');
+var UFCroster = JSON.parse(UFCROSTER_FILE);
+function filter(array, test) {i
   var passed = [];
   for (var i = 0; i < array.length; i++) {
     if (test(array[i]))
@@ -9,7 +9,7 @@ function filter(array, test) {
   return passed;
 }
 
-print(JSON.stringify(filter(ancestry, function(person) {
-  return person.born > 1900 && person.born < 1925 ;
+print(JSON.stringify(filter(UFCroster, function(person) {
+  return person. age > 20 && person.age < 29 ;
 })));
 
