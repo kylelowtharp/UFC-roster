@@ -13,7 +13,12 @@ var UFCROSTER_FILE = "[\n " + [
  '{"name": "Travis Browne", "class": "Heavyweight", "wins": 17, "losses": 2, "age": 32}',
  '{"name": "Chris Weidman", "class": "Middleweight", "wins": 12, "losses": 0, "age": 30}',
  '{"name": "Anderson Silva", "class": "Middleweight", "wins": 34, "losses": 6, "age": 39}',
- '{"name": "Vitor Belfort", "class": "Middleweight", "wins": 24, "losses": 10, "age": 37}', 
+ '{"name": "Vitor Belfort", "class": "Middleweight", "wins": 24, "losses": 10, "age": 37}',
+'{"name": "TJ Dillashaw", "class": "Bantamweight", "wins": 12, "losses": 2, "age": 29}',
+'{"name": "Renan Barao", "class": "Bantamweight", "wins": 35, "losses": 2, "age": 28}',
+'{"name": "Dominick Cruz", "class": "Bantamweight", "wins": 20, "losses": 1, "age": 29}',
+'{"name": "Demetrious Johnson", "class": "Flyweight", "wins": 21, "losses": 2, "age": 28}'
+ 
 ].join(",\n ") + "\n]";
 
 //list of UFC fighters and statistics
